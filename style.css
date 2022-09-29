@@ -1,26 +1,4 @@
-/* 85% de armazenamento usado … Você pode liberar espaço ou comprar mais armazenamento para o Drive, o Gmail e o Google Fotos.
-style.css
-Quem pode acessar
 
-Propriedades do sistema
-Tipo
-Folha de estilo
-Tamanho
-2 KB
-Armazenamento usado
-2 KB
-Local
-day 02
-Proprietário
-Daniel Santos
-Modificado
-10 de abr. de 2022 por Daniel Santos
-Aberto
-17:37 por mim
-Criado em
-10 de abr. de 2022
-Sem descrição
-Os leitores podem fazer o download */
 * {
     margin: 0;
     padding: 0;
@@ -82,6 +60,15 @@ img {
     margin-top: 20px;
     margin-bottom: 10px;
     border: 2px solid #D6DBDF;
+
+.profile .profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 10px 10px;
+
+    display: block;
+    margin: 0px auto;
 }
 
 .name {
@@ -100,7 +87,8 @@ img {
     text-align: center;
 }
 
-.contact-info {
+.contact-info{
+
     margin-left: 30px;
 }
 
@@ -129,7 +117,7 @@ img {
     color: #D6DBDF;
 }
 
-.skills {
+.skills{
     margin-left: 30px;
 }
 
