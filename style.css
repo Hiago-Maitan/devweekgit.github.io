@@ -60,15 +60,6 @@ img {
     margin-top: 20px;
     margin-bottom: 10px;
     border: 2px solid #D6DBDF;
-
-.profile .profile-image {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    padding: 10px 10px;
-
-    display: block;
-    margin: 0px auto;
 }
 
 .name {
