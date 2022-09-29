@@ -1,0 +1,153 @@
+/* 85% de armazenamento usado … Você pode liberar espaço ou comprar mais armazenamento para o Drive, o Gmail e o Google Fotos.
+style.css
+Quem pode acessar
+
+Propriedades do sistema
+Tipo
+Folha de estilo
+Tamanho
+2 KB
+Armazenamento usado
+2 KB
+Local
+day 02
+Proprietário
+Daniel Santos
+Modificado
+10 de abr. de 2022 por Daniel Santos
+Aberto
+17:37 por mim
+Criado em
+10 de abr. de 2022
+Sem descrição
+Os leitores podem fazer o download */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.resume-contents {
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.left-section {
+    grid-column: span 2;
+    height: 100%;
+    background-color: #1E1E1E;
+}
+
+.right-section {
+    grid-column: span 5;
+    height: 100%;
+    background-color: #424a50;
+    border-radius: 0px 60px 0px 0px;
+}
+
+.left-section-contents {
+    padding: 2rem 2rem;
+}
+
+.profile {
+    width: 100%;
+    /* border-bottom: 2px solid #eeeeee; */
+}
+
+.profile-line {
+    width: 80%;
+    border-bottom: 2px solid #eeeeee;
+    margin-top: 20px;
+    margin-bottom: 45px;
+    margin: 20px 30px 45px 32px;
+}
+
+.profile .profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 10px 10px;
+
+    display: block;
+    margin: 0px auto;
+}
+
+.name {
+    color: #D6DBDF;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.profession {
+    color: #DF2A35;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact-info{
+    margin-left: 30px;
+}
+
+/* .contact-info { border-bottom: 2px solid #1B2631; } */
+.left-title {
+    color: #DF2A35;
+    font-size: 20px;
+    /* margin-left: 30px; */
+}
+
+.contact-info ul {
+    padding-top: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.contact-info ul li,
+.references ul li {
+    padding: .4rem 0;
+    color: #D6DBDF;
+}
+
+.contact-info ul li i,
+.references ul li i {
+    padding-right: 1rem;
+    font-size: 18px;
+    color: #D6DBDF;
+}
+
+.skills{
+    margin-left: 30px;
+}
+
+.skills ul {
+    padding-top: 1.5rem;
+}
+
+.skills ul li p {
+    padding: .4rem 0;
+    color: #D6DBDF;
+}
+
+.right-section-contents {
+    padding: 2rem 2rem;
+}
+
+.right-title {
+    color: #eeeeee;
+}
+
+.gap {
+    padding-bottom: 2rem;
+}
+
+.about-me-contents {
+    font-size: 18px;
+    color: #eeeeee;
+}
