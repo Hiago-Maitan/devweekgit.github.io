@@ -130,7 +130,7 @@ img {
 } */
 
 .right-title {
-    color: #262727;
+    color: #000000;
     font-size: 40px;
     margin-bottom: 10px;
 }
@@ -146,6 +146,10 @@ img {
 
 .experience-gap{
     padding: 2rem 2rem;
+}
+
+.education-gap{
+    padding: 0.5rem 2rem;
 }
 
 .experience-contents,
@@ -166,7 +170,7 @@ img {
 }
 
 .exp-time-period,
-.educationp-time-period,
+.education-time-period,
 .awards-time-period {
     font-size: 18px;
 }
