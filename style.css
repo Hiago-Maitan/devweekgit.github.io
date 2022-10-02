@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -49,7 +48,7 @@
   
 } */
 
-img {
+.profile-image {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -59,7 +58,7 @@ img {
 
     margin-top: 20px;
     margin-bottom: 10px;
-    border: 2px solid #D6DBDF;
+    border: 2px solid #ED7430;
 }
 
 .name {
@@ -72,20 +71,20 @@ img {
 }
 
 .profession {
-    color: #DF2A35;
+    color: #ED7430;
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
 }
 
-.contact-info{
+.contact-info {
 
     margin-left: 30px;
 }
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #DF2A35;
+    color: #ED7430;
     font-size: 20px;
     /* margin-left: 30px; */
 }
@@ -108,7 +107,12 @@ img {
     color: #D6DBDF;
 }
 
-.skills{
+.fa-phone, .fa-envelope, .fa-git, .fa-linkedin {
+    width: 20px;
+    height: 20px;
+}
+
+.skills {
     margin-left: 30px;
 }
 
@@ -130,7 +134,7 @@ img {
 } */
 
 .right-title {
-    color: #000000;
+    color: #D6DBDF;
     font-size: 40px;
     margin-bottom: 10px;
 }
@@ -144,12 +148,8 @@ img {
     color: #eeeeee;
 }
 
-.experience-gap{
+.experience-gap, .education-gap, .awards-gap {
     padding: 2rem 2rem;
-}
-
-.education-gap{
-    padding: 0.5rem 2rem;
 }
 
 .experience-contents,
@@ -166,7 +166,7 @@ img {
 .awards-company-name {
     font-size: 25px;
     font-weight: bold;
-    color: #B93D44;
+    color: #ED7430;
 }
 
 .exp-time-period,
@@ -179,7 +179,7 @@ img {
 .education-subject,
 .awards-name {
     font-size: 25px;
-    color: #B93D44;
+    color: #ED7430;
 }
 
 .exp-desc,
