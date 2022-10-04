@@ -78,8 +78,16 @@
 }
 
 .contact-info {
-
     margin-left: 30px;
+}
+
+a{
+    color: #D6DBDF;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #868788;
 }
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
@@ -182,9 +190,9 @@
     color: #ED7430;
 }
 
-.exp-desc,
-.education-desc,
-.awards-desc {
-    font-size: 16px;
+.exp-description, .exp-desc, .education-desc, .awards-desc {
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    border-left: 3px solid #a5a3a3;
     padding-left: 5px;
 }
